@@ -82,7 +82,7 @@ body {
     line-height: 1.4;
     font-weight: lighter;
     margin-bottom: 3px;
-    opacity: 80%;
+    /*opacity: 80%;*/
 }
 .banner-section .wrapper .b-content h3 {
     color: #fff;
@@ -90,7 +90,7 @@ body {
     font-size: 22px;
     line-height: 1.4;
     word-spacing: 2px;
-    opacity: 75%;
+    /*opacity: 75%;*/
 }
 .banner-section .wrapper .b-content .button {
     background: rgba(0,0,0,0.6);
@@ -107,7 +107,7 @@ body {
 .banner-section .wrapper .b-content .button p {
     color: #fff;
     font-size: 19px;
-    opacity: 80%;
+    /*opacity: 80%;*/
 }
 
 /*Banner Section CSS Ends*/
