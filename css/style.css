@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+body {
+	font-family: sans-serif;
+}
+
+/*Header Section CSS Starts*/
+
+.header-section {
+    padding: 16px 0;
+}
+.header-section .wrapper {
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header-section .wrapper .logo {
+	width: 30%;
+	float: left;
+}
+.header-section .wrapper .logo img {
+	width: 100%;
+}
+
+
+.header-section .wrapper .menu {
+    width: 62%;
+    float: right;
+    margin-top: 30px;
+}
+.header-section .wrapper .menu ul {}
+.header-section .wrapper .menu ul li {
+    float: left;
+    list-style: none;
+}
+.header-section .wrapper .menu ul li a {
+    text-decoration: none;
+    color: #717B84;
+    padding: 0 31px;
+    font-weight: 600;
+}
+.header-section .wrapper .menu ul li a:hover {
+	color: #03386C;
+}
+.header-section .wrapper .menu ul li:last-child a {
+	padding-right: 0;
+}
+
+/*Header Section CSS Ends*/
+
+/*Banner Section CSS Starts*/
+
+.banner-section {
+	background: url(../images/banner.jpg);
+	background-size: cover;
+	/*background-position: center bottom;*/
+	background-repeat: no-repeat;
+	min-height: 673px;
+    margin-bottom: 80px;
+}
+.banner-section .wrapper {
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.banner-section .wrapper .b-content {
+    /* border: 1px solid red; */
+    width: 380px;
+    padding: 45px 40px 45px 90px;
+    background: rgba(0,0,0,0.5);
+    margin-top: 80px;
+    position: absolute;
+    margin-bottom: 216px;
+    margin-left: -67px;
+}
+.banner-section .wrapper .b-content h1 {
+    color: #fff;
+    font-size: 42px;
+    line-height: 1.4;
+    font-weight: lighter;
+    margin-bottom: 3px;
+    opacity: 80%;
+}
+.banner-section .wrapper .b-content h3 {
+    color: #fff;
+    font-weight: lighter;
+    font-size: 22px;
+    line-height: 1.4;
+    word-spacing: 2px;
+    opacity: 75%;
+}
+.banner-section .wrapper .b-content .button {
+    background: rgba(0,0,0,0.6);
+    width: 158px;
+    text-align: center;
+    padding: 12px 7px;
+    margin-top: 33px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.banner-section .wrapper .b-content .button:hover {
+	background: black;
+}
+.banner-section .wrapper .b-content .button p {
+    color: #fff;
+    font-size: 19px;
+    opacity: 80%;
+}
+
+/*Banner Section CSS Ends*/
